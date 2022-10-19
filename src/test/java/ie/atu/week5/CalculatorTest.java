@@ -18,4 +18,10 @@ public class CalculatorTest {
     {
         assertEquals(5, myTotal.add(3,2));
     }
+
+    @Test
+    void testSub()
+    {
+        assertEquals(1, myTotal.sub(3,2));
+    }
 }

@@ -15,4 +15,9 @@ public class Calculator {
         return result;
     }
 
+    public int sub(int dig3, int dig4)
+    {
+        result = dig3 - dig4;
+        return result;
+    }
 }
